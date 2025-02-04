@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #93846F;
+    padding: 10px 20px;
+    color: #efeeed;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.nav-title {
+    font-size: 18px;
+    margin-right: 20px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: ;
+}
+.nav-links li {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.nav-links a {
+    color: #efeeed;
+    text-decoration: none;
+    padding-right: 0px;
+}
+.nav-links img {
+    width: 20px;
+}
+.contacts a img {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.header {
+    color: #93846f;
+}
+
+.infoall {
+    color: #93846f;
+    text-align: center;
+}
+
+.telnumber {
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #93846F;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .nav-active {
+        display: flex;
+    }
+}

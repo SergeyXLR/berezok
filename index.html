@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши усадьбы</title>
+    <link rel="stylesheet" href="styles\mycss.css">
+    <link rel="stylesheet" href="styles\section.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon\favicon-16x16.png">
+    <link rel="manifest" href="files\favicon_io\site.webmanifest">
+
+    <script defer src="script.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const mobileMenu = document.getElementById("mobile-menu");
+            const navLinks = document.querySelector(".nav-links");
+            mobileMenu.addEventListener("click", function () {
+                navLinks.classList.toggle("nav-active");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            &#9776;
+        </div>
+        <div class="nav-container">
+            <div class="nav-title">Наши усадьбы</div>
+            <ul class="nav-links">
+                <li><a href="#">"Бережок" &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">"Озерная 20" &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">"Королевичи" &nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <a href="viber://add?number=375297030339"><img src="imglogo\viber-48.png" alt="Viber"></a>
+            <a href="https://wa.me/375297030339"><img src="imglogo\whatsapp48.png" alt="WhatsApp"></a>
+            <a href="https://t.me/375297030339"><img src="imglogo\tg-48.png" alt="Telegram"></a>
+
+        </div>
+        <div class="tel_">
+            <a href="tel:375297030339" class="telnumber" , style="color:#efeeed;">+375(29)7-03-03-39</a>
+        </div>
+    </nav>
+
+    <section>
+        <div class="header">Подробнее о нас</div>
+        <p class="infoall">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab incidunt velit corporis
+            quasi, eos
+            molestiae cumque quo autem cupiditate.</p>
+        <div class="places">
+            <div class="place">
+                <p>Усадьба "Бережок"</p>
+                <p>
+                    <a href="https://www.instagram.com/berezhokvileyka?igsh=aXp3YTA0bGp5ODdq"><img
+                            style="width: 22px; margin-inline: 1em; margin: 10px;" src="imglogo\instagram-48.png"
+                            alt="Instagram"></a>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod eius nemo, modi porro,
+                    corrupti at soluta laborum non explicabo dolorem repudiandae obcaecati consequuntur omnis fugiat
+                    architecto quam, quia suscipit? Autem blanditiis optio minus pariatur ad voluptates, magni
+                    reiciendis doloribus obcaecati molestias maxime tenetur quasi?</p>
+                <img src="img_berezok\2100.JPG" alt="Бережок">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+            </div>
+            <div class="place">
+                <p>Усадьба "Озерная 20"</p>
+                <p>
+                    <a href="https://www.instagram.com/ozernaja20?igsh=YWI0Y2IzZzkzbXls"><img
+                            style="width: 22px; margin-inline: 1em; margin: 10px;" src="imglogo\instagram-48.png"
+                            alt="Instagram"></a>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod eius nemo, modi porro,
+                    corrupti at soluta laborum non explicabo dolorem repudiandae obcaecati consequuntur omnis fugiat
+                    architecto quam, quia suscipit? Autem blanditiis optio minus pariatur ad voluptates, magni
+                    reiciendis doloribus obcaecati molestias maxime tenetur quasi?</p>
+                <img src="img_ozernaya20\2700.JPG" alt="Озерная 20">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+            </div>
+            <div class="place">
+                <p>Усадьба "Королевичи"</p>
+                <p>
+                    <a href="https://www.instagram.com/korolevi4i?igsh=ZXI3ZHE3c2t5eW8w"><img
+                            style="width: 22px; margin-inline: 1em; margin: 10px;" src="imglogo\instagram-48.png"
+                            alt="Instagram"></a>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod eius nemo, modi porro,
+                    corrupti at soluta laborum non explicabo dolorem repudiandae obcaecati consequuntur omnis fugiat
+                    architecto quam, quia suscipit? Autem blanditiis optio minus pariatur ad voluptates, magni
+                    reiciendis doloribus obcaecati molestias maxime tenetur quasi?</p>
+                <img src="img_korolevichi\2400.JPG" alt="Королевичи">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
