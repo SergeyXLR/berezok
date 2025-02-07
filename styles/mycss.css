@@ -135,6 +135,17 @@ body {
     text-indent: 25px;
 }
 
+.gps-link {
+    text-decoration: none;
+    color: #93846f;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.gps-link:hover {
+    color: #453A2B
+}
+
 /* Стили для уменьшенной фотографии */
 .thumbnail {
     width: 200px; /* Размер уменьшенной фотографии */
@@ -183,6 +194,8 @@ body {
 .close:hover {
     color: #ccc;
 }
+
+
 
 .footer {
     display: flex;
