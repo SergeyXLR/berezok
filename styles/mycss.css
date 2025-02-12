@@ -6,9 +6,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #93846F;
+    background: #4B9130;
     padding: 10px 20px;
-    color: #efeeed;
+    color: #000000;
 }
 .nav-container {
     display: flex;
@@ -29,7 +29,7 @@ body {
     align-items: center;
 }
 .nav-links a {
-    color: #efeeed;
+    color: #000000;
     text-decoration: none;
     padding-right: 0px;
 }
@@ -49,16 +49,18 @@ body {
 }
 
 .header {
-    color: #93846f;
+    color: #000000;
+
 }
 
 .infoall {
-    color: #93846f;
+    color: #000000;
     text-align: center;
+    font-size: 35px;
 }
 
 .telnumber {
-    color: #efeeed; /* Исходный цвет */
+    color: #000000; /* Исходный цвет */
     text-decoration: none; /* Убираем подчеркивание */
     transition: color 0.3s, background-color 0.3s, transform 0.2s ease-in-out;
     padding: none;
@@ -66,36 +68,37 @@ body {
 }
 
 .telnumber:hover {
-    color: #453A2B; /* Цвет при наведении */
+    color: #000000; /* Цвет при наведении */
     background-color: none; /* Лёгкая подсветка */
 }
 
 .telnumber:active {
-    color: #453A2B; /* Цвет при нажатии */
+    color: #000000; /* Цвет при нажатии */
     transform: scale(1.1); /* Лёгкое увеличение при клике */
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #efeeed; /* Стандартный цвет текста */
+    color: #D4B56A; /* Стандартный цвет текста */
     transition: color 0.3s, background-color 0.3s; /* Плавная анимация */
     padding: none; /* Пространство вокруг текста */
     border-radius: none; /* Закругленные края */
 }
 
 .nav-links a:hover {
-    color: #453A2B; /* Цвет при наведении */
+    color: #000000; /* Цвет при наведении */
     background-color: none; /* Полупрозрачный фон */
 }
 
 .nav-links a:active {
-    color: #453A2B; /* Цвет при нажатии */
+    color: #000000; /* Цвет при нажатии */
     transform: scale(1.1);
 }
 
 .usadba {
-    color: #93846f;
+    color: #050505;
     text-decoration: none;
+    font-size: 24px;
 }
 
 
@@ -103,7 +106,7 @@ body {
     .nav-links {
         display: none;
         flex-direction: column;
-        background: #93846F;
+        background: #4B9130;
         position: absolute;
         top: 50px;
         left: 0;
@@ -133,17 +136,18 @@ body {
 .infobase {
     text-align: justify;
     text-indent: 25px;
+    color: #000000;
 }
 
 .gps-link {
     text-decoration: none;
-    color: #93846f;
+    color: #030303;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 .gps-link:hover {
-    color: #453A2B
+    color: #000000
 }
 
 /* Стили для уменьшенной фотографии */
@@ -200,17 +204,26 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    background: #93846F;
-    color: #efeeed;
-    padding: 10px;
+    background: #4B9130;
+    color: #D4B56A;
+    padding: 0px;
 }
 .footer-section {
     flex: 1;
     text-align: center;
+    color: #D4B56A;
 }
+.footer-section1 {
+    flex: 1;
+    text-align: center;
+    margin-top: 10px;
+    color: #D4B56A;
+}
+
+
 .bottom-bar {
     text-align: center;
-    background: #93846F;
-    color: #efeeed;
+    background: #4B9130;
+    color: #D4B56A;
     padding: 10px;
 }
