@@ -109,16 +109,19 @@ body {
         background: #4B9130;
         position: absolute;
         top: 50px;
-        left: 0;
+        left: 0px;
         width: 100%;
         padding: 10px 0;
     }
     .nav-links li {
         text-align: center;
         margin: 10px 0;
-    }
-    .menu-toggle {
+        margin-left: 30px;
+     }
+    .menu-toggle {                    
         display: block;
+        font-size: 30px;
+        color: #D4B56A;
     }
     .nav-active {
         display: flex;
