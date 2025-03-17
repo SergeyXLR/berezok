@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #AA8939;  /*полоски верх и низ*/
+}
+section {
+    max-width: auto;
+    margin: 0px auto;
+    padding: 20px;
+    background: #AA8939;     
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}          /*заливка внешнего фона, а марджин делает полоски*/
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    color: #AA8939; 
+}
+
+.places1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.place1 {
+    background: #D4B56A;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.place1 input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+.place1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.infobase1 {
+    text-align: justify;
+    text-indent: 0px;
+    color: #000000;
+}
+
+.button {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(255, 65, 108, 0.6);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Разрешаем перенос строк */
+    gap: 10px; /* Отступы между фото */
+    max-width: auto; /* Максимальная ширина галереи */
+    justify-content: center;
+}
+
+.gallery img {
+    width: calc(100% - 10px); /* 3 колонки в ряду */
+    max-width: 500px; /* Ограничение ширины */
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.5);
+}
+
+.gallery1 {
+    display: flex;
+    flex-wrap: wrap; /* Разрешаем перенос строк */
+    gap: 5px; /* Отступы между фото */
+    max-width: auto; /* Максимальная ширина галереи */
+    justify-content: center;
+    height: auto;
+}
+
+.gallery1 img {
+    width: calc(100% - 10px); /* 3 колонки в ряду */
+    max-width: 300px; /* Ограничение ширины */
+    height: max-content;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery1 img:hover {
+    transform: scale(1.5);
+}
+
+@media (min-width: 600px) {
+    .places1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .place1 {
+        flex: 1;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки на мобильных */
+    }
+    .gallery1 {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки на мобильных */
+        border-radius: 5px;
+        gap: 5px;
+    }
+}

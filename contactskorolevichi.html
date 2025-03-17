@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Королевичи контакты</title>
+    <link rel="stylesheet" href="styles\mycss.css">
+    <link rel="stylesheet" href="styles\section.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon\favicon-16x16.png">
+    <link rel="manifest" href="files\favicon_io\site.webmanifest">
+
+    <script defer src="script.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const mobileMenu = document.getElementById("mobile-menu");
+            const navLinks = document.querySelector(".nav-links");
+            mobileMenu.addEventListener("click", function () {
+                navLinks.classList.toggle("nav-active");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            &#9776;
+        </div>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-title">Наши усадьбы &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="berezok.html">"Бережок" &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="ozernaya20.html">"Озерная 20" &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="korolevichi.html">"Королевичи" &nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <a href="viber://add?number=375297030339"><img src="imglogo\viber-48.png" alt="Viber"></a>
+            <a href="https://wa.me/375297030339"><img src="imglogo\whatsapp48.png" alt="WhatsApp"></a>
+            <a href="https://t.me/+375297030339"><img src="imglogo\tg-48.png" alt="Telegram"></a>
+
+        </div>
+        <div class="tel_">
+            <a href="tel:+375297030339" class="telnumber" , style="color:#D4B56A;">+375(29)7 03 03 39</a>
+        </div>
+    </nav>
+
+    <section>
+        <p>
+            <a href="korolevichi.html" class="button">Назад</a>   
+        </p>
+
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-section">
+                <p>Контактный телефон:</p>
+                <p><a href="tel:+375297030339" class="telnumber" , style="color: #D4B56A;;">+375(29)7 03 03 39</a></p>
+                <p></p>
+            </div>
+            <div class="footer-section1">
+                <a href="viber://add?number=375297030339"><img src="imglogo\icons8-viber-96.png" alt="Viber" style="width: 55px;"></a>
+                <a href="https://wa.me/375297030339"><img src="imglogo\icons8-whatsapp-96.png" alt="WhatsApp" style="width: 55px;"></a>
+                <a href="https://t.me/+375297030339"><img src="imglogo\tg-96.png" alt="Telegram" style="width: 55px;"></a>
+
+            </div>
+        </div>
+        <div class="bottom-bar">© Maslovsky 2025</div>
+    </footer>
+
+
+</body>
+
+</html>
